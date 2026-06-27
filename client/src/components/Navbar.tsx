@@ -61,7 +61,9 @@ export default function Navbar() {
             {/* CTA Button */}
             <div className="hidden md:flex items-center gap-4">
               <motion.a
-                href="#"
+                href="/Rahul_Upadhyay_Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="px-4 py-2 border border-cyan-500/50 rounded-lg text-cyan-400 hover:bg-cyan-500/10 transition-all duration-200 font-body text-sm"
                 whileHover={{ borderColor: "#00D4FF", boxShadow: "0 0 20px rgba(0, 212, 255, 0.3)" }}
               >
@@ -101,7 +103,9 @@ export default function Navbar() {
               </motion.a>
             ))}
             <motion.a
-              href="#"
+              href="/Rahul_Upadhyay_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="mt-4 px-4 py-3 border border-cyan-500/50 rounded-lg text-cyan-400 hover:bg-cyan-500/10 transition-all duration-200 font-body text-center"
               whileHover={{ borderColor: "#00D4FF" }}
             >
